@@ -8,7 +8,7 @@ import SimulationHistory from "./components/SimulationHistory"
 import { scheduleProcesses } from "./utils/schedulingAlgorithms"
 import "./index.css"
 
-export default function App() {
+export default function Page() {
   const [currentPage, setCurrentPage] = useState("simulator")
   const [simulationHistory, setSimulationHistory] = useState([])
   const [results, setResults] = useState([])
